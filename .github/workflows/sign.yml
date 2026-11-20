@@ -31,7 +31,6 @@ jobs:
     env:
       IPA_URL: https://github.com/OpenListApp/OpenListApp/releases/download/v2025.07.292/ios-release.zip
       BUNDLE_ID: com.github.openlist.openlist
-      IPA_WORK: ${{ runner.temp }}/ipa-work
     steps:
       - name: 取代码
         uses: actions/checkout@v4
